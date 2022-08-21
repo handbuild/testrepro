@@ -1,0 +1,52 @@
+(music) So far, we’ve reviewed Python, R, and SQL. In this video, we will review some other languages
+that have compelling use cases for data science. Ok, so indisputably, Python, R, and SQL are
+the three most popular languages that data scientists use. But, there are many, many other languages
+that are worth your time when considering which language to use to solve a particular
+data science problem. Scala, Java, C++, and Julia are probably the
+most traditional data science languages on this slide. But JavaScript, PHP, Go, Ruby, Visual Basic,
+and others have all found their place in the data science community as well! I won’t dive as deeply into each of these
+languages, but I'll mention some notable highlights. Java is a tried-and-true general-purpose object
+oriented programming language. It's been widely adopted in the enterprise
+space and is designed to be fast and scalable. Java applications are compiled to bytecode
+and run on the Java Virtual Machine, or "JVM." Some notable data science tools built with
+Java include Weka, for data mining; Java-ML, which is a machine learning library; Apache
+MLlib, which makes machine learning scalable; and Deeplearning4j, for deep learning. Apache Hadoop is another Java-built application. It manages data processing and storage for
+big data applications running in clustered systems. Scala is a general-purpose programming language
+that provides support for functional programming and a strong static type system. Many of the design decisions in the construction
+of the Scala language were made to address criticisms of Java. Scala is also interoperable with Java, as
+it runs on the JVM. The name "Scala" is a combination of "scalable"
+and "language." This language is designed to grow alongwith
+the demands of its users. For data science, the most popular program
+built using Scala is Apache Spark. Spark is a fast and general-purpose cluster
+computing system. It provides APIs that make parallel jobs easy
+to write, and an optimized engine that supports general computation graphs. Spark includes Shark, which is a query engine;
+MLlib, for machine learning; GraphX, for graph processing; and Spark Streaming. Apache Spark was designed to be faster than
+Hadoop. C++ is a general-purpose programming language. It is an extension of the C programming language,
+or "C with Classes.” C++ improves processing speed, enables system
+programming, and provides broader control over the software application. Many organizations that use Python or other
+high-level languages for data analysis and exploratory tasks still rely on C++ to develop
+programs that feed that data to customers in real-time. For data science, a popular deep learning
+library for dataflow called TensorFlow was built with C++. But while C++ is the foundation of TensorFlow,
+it runs on a Python interface, so you don’t need to know C++ to use it. MongoDB, a NoSQL database for big data management,
+was built with C++. Caffe is a deep learning algorithm repository
+built with C++, with Python and MATLAB bindings. A core technology for the World Wide Web,
+JavaScript is a general-purpose language that extended beyond the browser with the creation
+of Node.js and other server-side approaches. Javascript is NOT related to the Java language. For data science, the most popular implementation
+is undoubtedly TensorFlow.js. TensorFlow.js makes machine learning and deep
+learning possible in Node.js as well as in the browser. TensorFlow.js was also adopted by other open
+source libraries, including brain.js and machinelearn.js. The R-js project is another great implementation
+of JavaScript for data science. R-js has re-written linear algebra specifications
+from the R Language into Typescript. This re-write will provide a foundation for
+other projects to implement more powerful math base frameworks like Numpy and SciPy
+of Python. Typescript is a superset of JavaScript. Julia was designed at MIT for high-performance
+numerical analysis and computational science. It provides speedy development like Python
+or R, while producing programs that run as fast as C or Fortran programs. Julia is compiled, which means that the code
+is executed directly on the processor as executable code; it calls C, Go, Java, MATLAB, R, Fortran,
+and Python libraries; and has refined parallelism. The Julia language is relatively new, having
+been written in 2012, but it has a lot of promise for future impact on the data science
+industry. JuliaDB is a particularly useful application
+of Julia for data science. It's a package for working with large persistent
+data sets. That's as far as we’ll dig into the many
+languages that are used to solve data science problems. If you have experience with a particular language,
+I recommend you do a web search to see what might already be possible in terms of using
+it for data science. You might be surprised at the possibilities! (music)
